@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastely | Your Suggestions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Your Personalized Suggestions</h1>
+            
+            <div class="mood-display">
+                "I'm feeling <span id="mood-text"></span>"
+            </div>
+            
+            <div id="suggestions-container" class="food-grid"></div>
+            
+            <div class="btn-group">
+                <button onclick="window.location.href='feeling.html'" class="btn btn-secondary">Try Again</button>
+                <button onclick="window.location.href='settings.html'" class="btn">Settings</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Tastely. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

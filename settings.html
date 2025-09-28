@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastely | Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="settings">
+    <div class="container">
+        <div class="card">
+            <h1>Your Profile Settings</h1>
+            
+            <div class="form-group">
+                <label>Username</label>
+                <div class="read-only" id="username"></div>
+            </div>
+            
+            <div class="form-group">
+                <label>Email</label>
+                <div class="read-only" id="email"></div>
+            </div>
+            
+            <div class="form-group">
+                <label>Preferred Cuisines</label>
+                <div id="cuisines" class="cuisine-tags"></div>
+                <div class="btn-group">
+                    <a href="mood.html" class="btn btn-secondary">Edit Cuisines</a>
+                </div>
+            </div>
+            
+            <div class="actions">
+                <button onclick="window.location.href='feeling.html'" class="btn">Get Suggestions</button>
+                <button id="sign-out" class="btn btn-secondary">Sign Out</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2025 Tastely. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
